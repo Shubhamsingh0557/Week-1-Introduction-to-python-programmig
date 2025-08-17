@@ -1,25 +1,26 @@
 # Week-1-Introduction-to-python-programmig
 
-# introducing Python-
+# Introducing Python-
   * Python is a high-level, general-purpose and very popular programming language.
   * It is being used in web development, machine learning applications etc.
   * Python programs are generally smaller than the other programmig language.
   * Programmers have to type relatively less and the indentation requirement of the language, makes them readable at the time.
   * Python have  very simple syntax and easy to learn.
 
-1. # Variables in Python:
-    * Variables are used to store data values.
-    * Variable is a name that is used to refer to memory location .
-    * Python variable is also known as an indentation and used to hold value.
-    * In Python, we don’t need to specify the data type explicitly—Python infers it automatically.
-    * x = 10        (Integer value)
-    * name = "Ram"  (String value)
-    * pi = 3.14     (Float value)
+# 1. Variables in Python-
+  * Variables are used to store data values.
+  * Variable is a name that is used to refer to memory location .
+  * Python variable is also known as an indentation and used to hold value.
+  * In Python, we don’t need to specify the data type explicitly—Python infers it automatically.
+  * x = 10        (Integer value)
+  * name = "Ram"  (String value)
+  * pi = 3.14     (Float value)
 
-- Dynamic Typing: Python allows variables to change type during execution.
-- Naming Rules: Variable names must start with a letter or underscore and cannot use reserved keywords.
+-- Dynamic Typing: Python allows variables to change type during execution.
 
-2. # Data Types:
+-- Naming Rules: Variable names must start with a letter or underscore and cannot use reserved keywords.
+
+# 2. Data Types:
  * Python supports several built-in data types-
    1. int: Stores the integer numbers, Example: x=5
    2. float: Stores the decimal numbers, Example: pi=3.24
@@ -31,7 +32,7 @@
    8. set: Stores the unordered, unique elements, Example: s={1,2,3}
 
 
-3. # Operators:
+# 3. Operators:
 * Operators perform operations on variables and values.
 
     a. Arithmetic Operators:
@@ -58,43 +59,48 @@
         in, not in
   
 
-4. # Input and Output:
+# 4. Input and Output:
 
 ➤ Input
 Used to take user input from the console.
-name = input("Enter your name: ")
+
+    name = input("Enter your name: ")
 
 
 ➤ Output
 Used to display information.
-print("Hello,", name)
+
+    print("Hello,", name)
 
 
 
-5. # Conditional Statements (if-else)
-Conditional statements control the flow of execution based on conditions.
-age = 18
-if age >= 18:
-    print("Eligible to vote")
-else:
-    print("Not eligible")
+# 5. Conditional Statements (if-else)
+* Conditional statements control the flow of execution based on conditions.
 
+      age = 18
+      if age >= 18:
+      print("Eligible to vote")
+      else:
+      print("Not eligible")
+  
 
-- You can also use elif for multiple conditions.
+-- You can also use elif for multiple conditions.
 
-6. # Loops
-Loops are used to execute a block of code repeatedly.
-➤ For Loop
-for i in range(5):
-    print(i)
+# 6. Loops
+* Loops are used to execute a block of code repeatedly.
 
+➤ For Loop:
+  
+       for i in range(5):
+       print(i)
+  
+-- Iterates over a sequence (like list, tuple, string, or range).
 
-- Iterates over a sequence (like list, tuple, string, or range).
-➤ While Loop
-count = 0
-while count < 5:
-    print(count)
-    count += 1
+➤ While Loop:
 
+       count = 0
+       while count < 5:
+       print(count)
+       count += 1
 
-- Continues as long as the condition is True.
+-- Continues as long as the condition is True.
