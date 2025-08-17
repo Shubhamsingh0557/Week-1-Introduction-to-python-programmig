@@ -1,13 +1,13 @@
 # Week-1-Introduction-to-python-programmig
 
---introducing Python-
+# introducing Python-
   * Python is a high-level, general-purpose and very popular programming language.
   * It is being used in web development, machine learning applications etc.
   * Python programs are generally smaller than the other programmig language.
   * Programmers have to type relatively less and the indentation requirement of the language, makes them readable at the time.
   * Python have  very simple syntax and easy to learn.
 
-1. Variables in Python:
+1. # Variables in Python:
     * Variables are used to store data values.
     * Variable is a name that is used to refer to memory location .
     * Python variable is also known as an indentation and used to hold value.
@@ -19,7 +19,7 @@
 - Dynamic Typing: Python allows variables to change type during execution.
 - Naming Rules: Variable names must start with a letter or underscore and cannot use reserved keywords.
 
-2. Data Types:
+2. # Data Types:
  * Python supports several built-in data types-
    1. int: Stores the integer numbers, Example: x=5
    2. float: Stores the decimal numbers, Example: pi=3.24
@@ -31,7 +31,7 @@
    8. set: Stores the unordered, unique elements, Example: s={1,2,3}
 
 
-3. Operators:
+3. # Operators:
 * Operators perform operations on variables and values.
 
     a. Arithmetic Operators:
@@ -58,7 +58,8 @@
         in, not in
   
 
-🔹 4. Input and Output
+4. # Input and Output:
+
 ➤ Input
 Used to take user input from the console.
 name = input("Enter your name: ")
@@ -70,7 +71,7 @@ print("Hello,", name)
 
 
 
-🔹 5. Conditional Statements (if-else)
+5. # Conditional Statements (if-else)
 Conditional statements control the flow of execution based on conditions.
 age = 18
 if age >= 18:
@@ -81,7 +82,7 @@ else:
 
 - You can also use elif for multiple conditions.
 
-🔹 6. Loops
+6. # Loops
 Loops are used to execute a block of code repeatedly.
 ➤ For Loop
 for i in range(5):
@@ -97,8 +98,3 @@ while count < 5:
 
 
 - Continues as long as the condition is True.
-
-✅ Summary
-These core concepts are essential for writing Python programs. Mastering them allows you to build logic, handle data, and control program flow effectively. Whether you're automating tasks, analyzing data, or building applications, these fundamentals are your first step into the world of Python programming.
-
-Would you like me to help you format this into a Markdown file or add a sample project structure for GitHub?
